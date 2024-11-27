@@ -1,4 +1,5 @@
-[Git/GitHub]{.underline}
+
+# GitHub Important Commands & Exercises.
 
 1.  Know about check if Git is properly **installed** and which git
     version is using:
@@ -7,9 +8,9 @@
 
 2.  Change the user name and e-mail address by **Configure Git**
 
-    -   Command:``` git config \--global user.name "Name"```
+    -   Command:``` git config --global user.name "Name"```
 
-    -   Command:``` git config \--global user.email "Mail"```
+    -   Command:``` git config --global user.email "Mail"```
 
 3.  Creating git folder
 
@@ -53,11 +54,11 @@
 
 12. Move from stage to commit Environment
 
-    -   Command:```  git commit -m \"MESSAGE!\"```
+    -   Command:```  git commit -m "MESSAGE!"```
 
 13. Skip staging Environment
 
-    -   Command:```  git commit -a -m \"MESSAGE\"```
+    -   Command:```  git commit -a -m "MESSAGE"```
 
 14. Check the status to see the changes in a more compact way
 
@@ -103,7 +104,7 @@
 
 24. push our master branch to the origin url
 
-    -   Command:```  git push \--set-upstream origin master```
+    -   Command:```  git push --set-upstream origin master```
 
 25. Colne a remote repo into local repo
 
@@ -129,7 +130,7 @@
 
 29. Merge remote repo and local repo
 
-    -   Command:```  'git merge Remote/Local```
+    -   Command:```  git merge Remote/Local```
 
 30. push changes to remote origin
 
@@ -168,7 +169,7 @@
 
     -   ignore ALL .log files
 
-        i.  Command:```  \*.log```
+        i.  Command:```  *.log```
 
     -   ignore ALL files in ANY directory named temp
 
@@ -180,4 +181,4 @@
 
 37. modify the most recent commit
 
-    -   Command:```  git commit \--amend -m \"MESSAGE\"```
+    -   Command:```  git commit --amend -m "MESSAGE"```
